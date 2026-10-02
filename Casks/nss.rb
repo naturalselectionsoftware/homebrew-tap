@@ -10,22 +10,22 @@ cask "nss" do
 
   on_macos do
     on_arm do
-      sha256 "70442921105a63ec32721b61df746838a9fc702a3b90df9e7a92b565375d1d0c"
-      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v0.1.0/nss_#{version}_darwin_arm64.tar.gz"
+      sha256 "030e7f1775359dd11766ec3f13b5b1f2e3bde78f704770ce74bee4380dee9817"
+      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v#{version}/nss_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ee823ca248a94b6fc6639bdfc3d6e6e7050b7b793043208342e7f029cb563727"
-      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v0.1.0/nss_#{version}_darwin_amd64.tar.gz"
+      sha256 "7b3bf207802f2bdc515d1e8586234799f5a0d42097b5aee3854854de72470f33"
+      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v#{version}/nss_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a0ba5a834246c7e75d516291c32181fbc22a19aa3f8ae87b9820260839c57b50"
-      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v0.1.0/nss_#{version}_linux_arm64.tar.gz"
+      sha256 "aa48d4057ac92cad827d73d4ed56b223974d84b66d55bcceba8532795f1707ed"
+      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v#{version}/nss_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a7c8991a94c5719563cb1c157ab32459026fb53cae400300fc235921fdc6503d"
-      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v0.1.0/nss_#{version}_linux_amd64.tar.gz"
+      sha256 "19346c8a97a0af1d33c133529fcf857c924880b5d59b64500a58cde2daabb421"
+      url "https://github.com/naturalselectionsoftware/nss-cli/releases/download/v#{version}/nss_#{version}_linux_amd64.tar.gz"
     end
   end
 
